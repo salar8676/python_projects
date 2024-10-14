@@ -1,0 +1,16 @@
+# list of names ==> name_list
+# Random selection of name ==> name
+# print name
+
+import random
+import pyfiglet
+
+text = 'Lottery Game'
+welcome = pyfiglet.figlet_format(text, font='digital')
+print(welcome)
+
+
+name_list = ['a', 'b', 'c', 'd', 'e', 'f']
+
+name = random.choice(name_list)
+print(name)
